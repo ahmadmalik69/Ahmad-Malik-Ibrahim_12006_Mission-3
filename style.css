@@ -1,0 +1,111 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+    border: 0.1px solid grey;
+    width: max-content;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.videobelajar{
+    justify-content: left;
+    align-items: center;
+    
+
+}
+
+.pendaftaranakun {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Yuk {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nama {
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.namakiri {
+    display: inline-block;
+    text-align: left;
+}
+
+.email {
+    text-align: center;
+}
+
+.emailkiri {
+    display: inline-block;
+    text-align: left;
+}
+
+.hp {
+    text-align: center;
+}
+
+.hpkiri {
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.password {
+    text-align: center;
+}
+
+.passwordkiri {
+    display: inline-block;
+    text-align: left;
+}
+
+.lupapassword {
+    
+    text-align: right;
+}
+
+.masuk {
+    text-align: center;
+    color: greenyellow;
+    background-color: lightgreen;
+    text-decoration: none!important;
+}
+
+.daftar {
+    text-align: center;
+    color: aliceblue;
+    background-color: chartreuse;
+    text-decoration: none!important;
+}
+
+.atau {
+    text-align: center;
+}
+
+.masukgoogle {
+    text-align: center;
+}
