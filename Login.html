@@ -1,34 +1,46 @@
 <html>
     <head>
         <title>Login</title>
+        <link rel="stylesheet" href="login.css"/>
     </head>
     <body>
+        <div class="videobelajar">
         <img src="videobelajar.png" alt="">
+        </div>
         <hr>
         <br>
         <br>
         <br>
-        <h1>Masuk ke Akun</h1>
-        <h5>Yuk, lanjutin belajarmu di videobelajar</h5>
+    <div class="container">
+        <h1 class="masukakun">Masuk ke Akun</h1>
+        <h5 class="Yuk">Yuk, lanjutin belajarmu di videobelajar</h5>
         <br>
         <form action="">
-            <label for="email">E-Mail </label>
+            <!-- Email -->
+            <div class="email">
+            <div class="emailkiri"><label for="email">E-Mail</label>
             <br>
-            <input type="text" id="email">
+            <input type="text" id="email"required></div>
+            </div>
             <br>
+            <!-- Password -->
+            <div class="password">
+            <div class="passwordkiri">
             <label for="password">Kata Sandi</label>
             <br>
-            <input type="password">
+            <input type="password" id="password" required>
+            <br>
+            </div>
         </form>
-
-        <p>Lupa Password?</p>
+        <p class="lupapassword">Lupa Password?</p>
         <br>
-        <a href="Beranda.html" target="_blank">Masuk</a>
+        <div class="daftar"><a href="Register.html" target="_blank">Daftar</a></div>
         <br>
-        <a href="Register.html" target="_blank">Daftar</a>
+        <div class="masuk"><a href="Beranda.html" target="_blank">Masuk</a></div>
         <br>
-        <p>atau</p>
+        <p class="atau">atau</p>
         <br>
-        <p>Masuk dengan Google</p>
+        <p class="masukgoogle"> <img src="google.png" alt="" style="width: 20px; height: 20px;" > Daftar dengan Google</p>
+    </div>
     </body>
 </html>
