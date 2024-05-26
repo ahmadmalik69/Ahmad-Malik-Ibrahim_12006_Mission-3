@@ -10,8 +10,8 @@ body {
 
 .container {
     text-align: center;
-    border: 0.1px solid grey;
-    width: max-content;
+    border: 0.1px solid rgb(218, 218, 218);
+    width: 500px;
     padding: 2px;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@ body {
 .videobelajar{
     justify-content: left;
     align-items: center;
+    width: 30vw;
     
 
 }
@@ -47,7 +48,7 @@ body {
 .nama {
     justify-content: center;
     align-items: center;
-    text-align:center;
+    text-align:left;
 }
 
 .namakiri {
@@ -55,8 +56,40 @@ body {
     text-align: left;
 }
 
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 270%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+
+
+input[type="tel"]
+ {
+    width: 84%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+
+}
+
+select {
+    width: 15%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+
+
 .email {
-    text-align: center;
+    text-align: left;
 }
 
 .emailkiri {
@@ -65,17 +98,18 @@ body {
 }
 
 .hp {
-    text-align: center;
+    text-align: left;
+    display: flex;
 }
 
 .hpkiri {
-    display: inline-block;
+    display: flex;
     text-align: left;
     
 }
 
 .password {
-    text-align: center;
+    text-align: left;
 }
 
 .passwordkiri {

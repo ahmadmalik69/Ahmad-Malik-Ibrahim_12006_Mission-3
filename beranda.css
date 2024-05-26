@@ -8,6 +8,12 @@ body {
     background-color: white;
 }
 
+.videobelajar{
+    justify-content: left;
+    align-items: center;
+    width: 30vw;
+}
+
 .header {
     border: 1px solid black;
     text-align: center;
