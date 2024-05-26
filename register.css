@@ -90,16 +90,16 @@ body {
 
 .masuk {
     text-align: center;
-    color: greenyellow;
-    background-color: lightgreen;
-    text-decoration: none!important;
+    color: chartreuse;
+    background-color: rgb(209, 238, 209);
+    text-decoration: none;
 }
 
 .daftar {
     text-align: center;
     color: aliceblue;
     background-color: chartreuse;
-    text-decoration: none!important;
+    text-decoration: none;
 }
 
 .atau {
