@@ -57,7 +57,7 @@ body {
 input[type="text"],
 input[type="password"],
 textarea {
-    width: 270%; 
+    width: 260%; 
     padding: 10px; 
     border: 1px solid #ccc; 
     border-radius: 4px; 
