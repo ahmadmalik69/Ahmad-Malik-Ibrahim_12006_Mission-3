@@ -81,16 +81,16 @@ textarea {
 .masuk {
     font-size: larger;
     text-align: center;
-    color: aliceblue;
-    background-color: chartreuse;
+    color: #fff;
+    background-color:#28a745;
     text-decoration: none;
 }
 
 .daftar {
     font-size: larger;
     text-align: center;
-    color: chartreuse;
-    background-color: rgb(240, 255, 240);
+    color: #28a745;
+    background-color:#f2f7f2;
     text-decoration: none;
 }
 
