@@ -1,23 +1,32 @@
-*,
-html {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: white;
+}
+
+.navbar {
+    display: flex;
+            justify-content: space-between;
+            align-items: center;
+    border-bottom: 1px solid rgba(58, 53, 65, 0.12)
 }
 
 .videobelajar{
     justify-content: left;
     align-items: center;
     width: 10vw;
+    color: rgba(255, 189, 58, 1);
+}
+
+.kategori {
+    width: 10vw;
 }
 
 .header {
     border: 1px solid black;
     text-align: center;
-    
+    background-image:url(background1.jpeg);
+    color: white;
 }
 
 .header1 {
@@ -33,30 +42,33 @@ body {
     display : flex;
     list-style-type: none;
     padding: 10px;
-    margin-right: 1px;
-    justify-content: space-around;
-    
 }
 
 .list1 {
-    display:flex;
+    margin-right: 50px;
 }
 
-.image-container {
-    display: grid;
-    grid-template-columns: repeat(3, 650px);
-    grid-template-rows: repeat(3, 500px);
-    gap: 10px;
+.list1 a {
+    text-decoration: none;
+    color: #555;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px 0;
+    display: inline-block;
+    position: relative;
 }
 
-.image {
-    width: 500px;
-    height: 500px;
+.list a:hover {
+    color: #f53d0c; /* Active and hover color */
+    font-weight: bold;
 }
+
 
 .isi {
     border: 1px solid black;
     text-align: center;
+    color: white;
+    background-image: url(background2.jpeg);
 }
 
 .subs {
